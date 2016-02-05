@@ -11,7 +11,7 @@ shinyUI(fluidPage(
 						)
 				),
 		mainPanel(
-					graphOutput("trendPlot")
+					graphOutput("trendPlot") #function doesn't exist
 		)
 	)
 ))
